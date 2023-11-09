@@ -15,7 +15,9 @@ async function start() {
         .build()
     const document = SwaggerModule.createDocument(app, config);
     SwaggerModule.setup('/api/docs', app, document);
+    
     app.enableCors();
+    await app.listen(3001);
 
     app.use(json({ limit: '50mb' }));
     app.use(urlencoded({ extended: true, limit: '50mb' }));
