@@ -20,6 +20,10 @@ Here you can create your survey. Available image formats: png/jpg/jpeg.
 
 At the moment the editor preview does not correspond to the real preview.
 ​
+### Database view
+
+![alt text](https://github.com/mnsavag/markdown-files/master/piko/piko-db.png?raw=true)
+
 ### Installation
 
 ```bash
