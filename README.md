@@ -22,7 +22,7 @@ At the moment the editor preview does not correspond to the real preview.
 ​
 ### Database view
 
-![alt text](https://github.com/mnsavag/markdown-files/blob/master/piko/piko-db.png?raw=true)
+![alt text](https://github.com/mnsavag/piko-server-nestjs/blob/master/piko-db.png?raw=true)
 
 ### Installation
 
