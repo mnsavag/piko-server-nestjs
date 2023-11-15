@@ -45,6 +45,7 @@ Set up the database in files .env, .development.env
 ```bash
 # set up database
 $ npm run migrate
+$ npm run makemigrations
 ```
 
 ```bash
