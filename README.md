@@ -10,6 +10,7 @@ Also You can see the client implementation here https://github.com/mnsavag/piko-
 
 - Node.js
 - Nest.js
+- Typescript
 - PostgreSQL
 - TypeORM
   
