@@ -9,13 +9,14 @@ import {
 
 import { ContestService } from './contest.service';
 import { CreateContestDto } from './dto/create-contest.dto';
-import { ApiBody, ApiConsumes, ApiOperation, ApiResponse } from '@nestjs/swagger';
+import { ApiBody, ApiConsumes, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Contest } from './contest.model';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
 import { isAccessMimeType } from 'src/utils/validators/express-multer-file.validator';
 import { GetContestsQueryDto } from './dto/query-contest.dto';
 
 
+@ApiTags('Contest')
 @Controller('api/contest')
 export class ContestController {
     constructor(private contestService: ContestService) {}
