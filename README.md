@@ -13,24 +13,6 @@ Also You can see the client implementation here https://github.com/mnsavag/piko-
 - Typescript
 - PostgreSQL
 - TypeORM
-  
-## Interacting with app (client)
-
-### Home Page
-
-All polls are here. You can go through them by clicking the "start" button.
-
-Or see the rating by clicking the "show result" button.
-
-**Example**
-
-![alt text](https://github.com/mnsavag/piko-server-nestjs/blob/master/site-home-page.png?raw=true)
-
-### Create Championship Page
-
-Here you can create your survey. Available image formats: png/jpg/jpeg.
-
-At the moment the editor preview does not correspond to the real preview.
 ​
 ## Swagger API
 
