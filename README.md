@@ -46,11 +46,11 @@ npm install
 Use PostgreSQL
 
 ```bash
-npm run migrate
+npm run makemigrations
 ```
 
 ```bash
-npm run makemigrations
+npm run migrate
 ```
 
  Database initialization
