@@ -72,6 +72,8 @@ VALUES ('other');
 
 ### Running the app
 
+Use .development.env
+
 ```bash
 npm run start:dev
 ```
