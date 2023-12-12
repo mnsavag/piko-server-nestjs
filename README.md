@@ -33,7 +33,7 @@ Also You can see the client implementation here https://github.com/mnsavag/piko-
 
 ### Set environment variables
 
-Create or change an .development.env file on root folder. Feel free to change it according to your own configuration.
+Create or change an .env file on root folder. Feel free to change it according to your own configuration.
 
 ### Install dependencies
 
@@ -46,11 +46,11 @@ npm install
 Use PostgreSQL
 
 ```bash
-npm run makemigrations
+npm run migrate
 ```
 
 ```bash
-npm run migrate
+npm run makemigrations
 ```
 
  Database initialization
