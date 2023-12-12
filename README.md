@@ -49,10 +49,6 @@ Use PostgreSQL
 npm run migrate
 ```
 
-```bash
-npm run makemigrations
-```
-
  Database initialization
  
 ```bash
